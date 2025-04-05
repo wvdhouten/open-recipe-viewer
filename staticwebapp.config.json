@@ -2,8 +2,7 @@
   "routes": [
     {
       "route": "/recipes",
-      "rewrite": "index.html",
-      "statusCode": 200
+      "rewrite": "index.html"
     },
     {
       "route": "/recipe/*",
