@@ -1,12 +1,9 @@
 {
-  "routes": [
-    {
-      "route": "/recipes",
-      "rewrite": "index.html"
+    "navigationFallback": {
+       "rewrite": "index.html",
+       "exclude": ["/assets/*"]
     },
-    {
-      "route": "/recipe/*",
-      "rewrite": "/index.html"
+    "mimeTypes": {
+        ".json": "text/json"
     }
-  ]
 }
