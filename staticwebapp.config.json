@@ -6,8 +6,7 @@
     },
     {
       "route": "/recipe/*",
-      "rewrite": "/index.html",
-      "statusCode": 200
+      "rewrite": "/index.html"
     }
   ]
 }
