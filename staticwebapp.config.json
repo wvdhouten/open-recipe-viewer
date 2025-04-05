@@ -1,1 +1,9 @@
-{}
+{
+  "routes": [
+    {
+      "route": "/recipes/*",
+      "rewrite": "index.html",
+      "statusCode": 200
+    }
+  ]
+}
