@@ -4,6 +4,11 @@
       "route": "/recipes/*",
       "rewrite": "index.html",
       "statusCode": 200
+    },
+    {
+      "route": "/recipe/*",
+      "rewrite": "/index.html",
+      "statusCode": 200
     }
   ]
 }
